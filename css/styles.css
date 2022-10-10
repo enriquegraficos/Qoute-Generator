@@ -1,0 +1,81 @@
+/* General Styles*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif ;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../img/fondo.jpeg) no-repeat center center /cover;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+    
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    background-color: #256D85;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: #06283D;
+    border-radius: 15px;
+    padding: 50px 40px;
+    opacity: .8;
+    /* box-shadow: 0 0 10px; */
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;  
+    line-height: 1.5rem;
+    color: white; 
+}
+
+.main-content .person{
+    font-size:1rem ;
+    color: red;
+    /* text-transform: uppercase; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    color: yellow;
+}
+
+.button-area button{
+    background-color: #06283D;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.button-area button:hover{
+    background-color: #256D85;
+    color:white;
+}
+
+.button-area button:active{
+    background-color: #47B5FF;
+    color: black;
+}
